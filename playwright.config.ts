@@ -14,7 +14,7 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
 
     headless: true,
-    trace: 'on-first-retry'
+    trace: 'on-first-retry',
 
     launchOptions: {
       slowMo: 800
