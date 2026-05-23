@@ -27,6 +27,18 @@ npm install
 ```bash
 npx playwright test
 ```
+## Run Tests in Headed Mode
+
+```bash
+npx playwright test --headed
+
+## Run specific Tests
+npx playwright test tests/purchase-flow.spec.ts
+npx playwright test tests/negative-login.spec.ts
+
+## Run specific Tests visible browser
+npx playwright test tests/purchase-flow.spec.ts --headed
+npx playwright test tests/negative-login.spec.t --headed
 
 ## Run Tests in UI Mode
 
