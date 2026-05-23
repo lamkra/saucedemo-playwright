@@ -38,7 +38,7 @@ npx playwright test tests/negative-login.spec.ts
 
 ## Run specific Tests visible browser
 npx playwright test tests/purchase-flow.spec.ts --headed
-npx playwright test tests/negative-login.spec.t --headed
+npx playwright test tests/negative-login.spec.ts --headed
 
 ## Run Tests in UI Mode
 
